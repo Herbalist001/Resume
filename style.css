@@ -1,0 +1,92 @@
+/* h1 = 32px, h2 = 28px, h3 = 24px, h4 = 20px, h5 = 18px, h6 = 16px*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+p,
+ul {
+  font-size: 14px;
+}
+
+.header {
+  /* text-align: center; */
+  margin-top: 60px;
+}
+
+.header h1 {
+  font-size: 44px;
+}
+
+.contact-info {
+  /* text-align: center; */
+  /* margin-top: 20px; */
+}
+
+.section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+}
+
+.section p {
+  line-height: 1.6;
+}
+
+.section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: yellowgreen;
+}
+
+.skill-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.skill-2 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.delivered-imgs img {
+  height: 8.8rem;
+  width: 8.8rem;
+  /* border-radius: 50%; */
+  margin-right: -1.6rem;
+  border: 3px solid #fdf2e9;
+}
