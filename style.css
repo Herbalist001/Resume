@@ -23,6 +23,18 @@ h3 {
   color: #333;
 }
 
+h3 {
+  font-size: 20px;
+}
+.Title {
+  display: flex;
+}
+
+.Title,
+p {
+  justify-content: space-between;
+}
+
 p,
 ul {
   font-size: 14px;
